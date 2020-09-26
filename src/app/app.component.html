@@ -1,13 +1,23 @@
 
       <div class="container">
             <div class="row">
-              <mat-card class="col-5 tile mat-elevation-z8" *ngFor="let number of [0,1,2,3,4]">
+              <mat-card class="col-5 col-5{sm,md,lg,xl}  tile mat-elevation-z8" *ngFor="let number of [0,1,2,3,4]">
                 <mat-card-subtitle class="year">2019</mat-card-subtitle>
                 <mat-card-title class="date">april</mat-card-title>
-                <div class="icon"></div>
-                <!-- <mat-card-actions class="button_card">
+                <mat-icon aria-hidden="false" aria-label="folder_icon" class="icon">topic</mat-icon>
+                <!-- <div class="icon"></div> --> 
+                <mat-card-actions class="button_card">
                   <p class="button_text">open</p>
-                </mat-card-actions> -->
+                </mat-card-actions>
+              </mat-card>
+              <mat-card class="d-none d-sm-block col-sm-5 tile mat-elevation-z8" *ngFor="let number of [0,1,2,3,4]">
+                <mat-card-subtitle class="year">2019</mat-card-subtitle>
+                <mat-card-title class="date">april</mat-card-title>
+                <mat-icon aria-hidden="false" aria-label="folder_icon" class="icon">topic</mat-icon>
+                <!-- <div class="icon"></div> --> 
+                <mat-card-actions class="button_card_2">
+                  <p class="button_text">open</p>
+                </mat-card-actions>
               </mat-card>
             </div>
       </div>

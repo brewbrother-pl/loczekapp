@@ -11,7 +11,7 @@
 .year{
   position: relative;
   font-family: 'Roboto', sans-serif;
-  font-size: 20pt;
+  font-size: 14pt;
   font-weight: 400;
   text-align: center;
   color: #3F51B5;
@@ -19,48 +19,59 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  padding-top: 15px;
-  height: 50px;
+  padding-top: 8px;
+  /* height: 35px; */
 }
 .date{
   position: relative;
   font-family: 'Roboto', sans-serif;
-  font-size: 48pt;
+  font-size: 26pt;
   font-weight: 500;
   width: max-content;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  /* height: 100px; */
 }
 .icon{
-  position: relative;
-  height: 100px;
-  min-width: 81px;
+  font-size: 30pt;
+  display: block;
   width: max-content;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  background-image: url(../assets/folder.png);
-  background-repeat: no-repeat;
+  /* padding-top: 5px; */
+  /* padding-bottom: 20px; */
+  color: #939393;
+  line-height: unset;
 }
 .button_card {
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 8px;
-  width: 366px;
-  height: 103px;
+  width: auto;
+  height: auto;
+  background-image: url(../assets/button.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.button_card_2{
+  margin-left: 0px;
+  margin-right: 0px;
+  /* margin-top: 8px; */
+  width: auto;
+  height: auto;
   background-image: url(../assets/button.svg);
   background-repeat: no-repeat;
 }
 .button_text{
   color: #ffffff;
   font-family: 'Roboto' Arial, Helvetica, sans-serif;
-  font-size: 36pt;
+  font-size: 18pt;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 30px;  
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  margin-bottom: -8px;
 }
